@@ -1,0 +1,49 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "gold"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "Date",
+				"type": "DATE"
+			},
+			{
+				"name": "hour",
+				"type": "INT32"
+			},
+			{
+				"name": "Browser",
+				"type": "UTF8"
+			},
+			{
+				"name": "DeviceType",
+				"type": "UTF8"
+			},
+			{
+				"name": "Path",
+				"type": "UTF8"
+			},
+			{
+				"name": "unique_visitors",
+				"type": "INT64"
+			},
+			{
+				"name": "OS",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

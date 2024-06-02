@@ -1,0 +1,9 @@
+{
+	"name": "finalprojec2-DF",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e8f0fe61-ffdf-40f4-929f-9e9caab7ce6d",
+		"tenantId": "2dff09ac-2b3b-4182-9953-2b548e0d0b39"
+	}
+}
