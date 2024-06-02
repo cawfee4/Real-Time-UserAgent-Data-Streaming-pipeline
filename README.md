@@ -22,6 +22,7 @@ In Azure Databricks, data is cleaned, transformed, and aggregated. These data pr
 ![image](https://github.com/cawfee4/Real-Time-UserAgent-Data-Streaming-pipeline/assets/94046123/506b6763-a0ea-4190-aef0-9cf7e1074d24)
 ## 6. Dimension Modeling
 The transformed data in the gold layer is then used in Data factory for dimension modeling, the gold layer table is transformed into fact and dimensions table
+
 ![image](https://github.com/cawfee4/Real-Time-UserAgent-Data-Streaming-pipeline/assets/94046123/89dd6573-d368-469c-b756-47c54af15f86)
 ## 7. Data Analysis and Reporting
 The transformed and stored data can be accessed by BI (Business Intelligence) tools like Power BI for analysis and reporting
