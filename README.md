@@ -25,3 +25,4 @@ The transformed data in the gold layer is then used in Data factory for dimensio
 ![image](https://github.com/cawfee4/Real-Time-UserAgent-Data-Streaming-pipeline/assets/94046123/89dd6573-d368-469c-b756-47c54af15f86)
 ## 7. Data Analysis and Reporting
 The transformed and stored data can be accessed by BI (Business Intelligence) tools like Power BI for analysis and reporting
+![image](https://github.com/cawfee4/Real-Time-UserAgent-Data-Streaming-pipeline/assets/94046123/aeaa8370-a6dc-40ac-877e-120c888582f9)
