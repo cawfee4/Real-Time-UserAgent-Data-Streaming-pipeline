@@ -1,7 +1,7 @@
 ## This project was made to ingest UserAgent data from a website for cleaning, transformation and Analytics using several services from Azure and Power BI for Visualization
 ### The project follows this architecture
  ![image](https://github.com/cawfee4/Real-Time-UserAgent-Data-Streaming-pipeline/assets/94046123/64349e78-a52a-4be3-9d03-424ac203b0e7)
-## 1. Ingestion (Thu thập dữ liệu) 
+## 1. Ingestion
 UserAgent Data from website is sent to Azure Event Hubs by calling API. Event Hubs is an event ingestion service that can handle millions of events per second.
 ## 2. Website data 
 The data sent includes:
